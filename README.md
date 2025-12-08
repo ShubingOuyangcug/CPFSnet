@@ -4,3 +4,5 @@ Test results of different models in the transfer region ：
 <img width="570" height="681" alt="image" src="https://github.com/user-attachments/assets/cff8cfbc-d872-4f99-a731-ccf0521e60a7" />
 
 Label and iput img are available at https://pan.baidu.com/s/1LwiFLI0lPixr9AKAJkPpYw?pwd=yegw password: yegw
+
+the unetbrB.py in the fold of model is proposed CPFSnet; the jihe2.py is the Post-processing Module; the main1kfold.py is the run program file;
