@@ -1,0 +1,22 @@
+{   "CUDA_VISIBLE_DEVICES": "1",
+    "num_classes": 2,
+    "batch_size": 10,
+    "num_epoch": 200,
+    "lr": 0.001,
+    "weight_decay": 1e-4,
+    "momentum": 0.95,
+    "train_list": "newdata/bg200m_1_traintxt415.txt",
+    "test_list": "newdata/5w_200mvalidtxt415.txt",
+
+
+
+    "save_model": {
+        "save": true,
+        "save_path": "saved"
+    },
+    "//":["unetPlusPlus,pspnet,unet,attentionUnet,5w_200mkfold217.txt,bg200m_2_alltxt415.txt, bg200m_1_traintxt415.txt"]
+}
+
+
+
+
